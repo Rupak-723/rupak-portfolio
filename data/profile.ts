@@ -11,9 +11,12 @@ const profile = {
 
   // Hero Animation
   title: [
-    "Catalysis Researcher",
-    "Computational Materials Scientist",
-    "CO₂ Electroreduction Enthusiast",
+    "Organic Chemistry Researcher",
+    "Heterogeneous Catalysis Enthusiast",
+    "Bio-chemistry Explorer",
+    "Surface Chemistry Enthusiast",
+    "Major in Chemistry",
+    "Minor in Biology",
     "Research Intern at NIMS, Japan",
   ],
 
