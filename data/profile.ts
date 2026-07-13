@@ -22,7 +22,7 @@ const profile = {
 
   // About
   description:
-    "I am a BS-MS Chemistry student at IISER Kolkata with research interests in heterogeneous catalysis, CO₂ electroreduction, intermetallic compounds, reaction kinetics, and computational materials science. I enjoy combining experimental chemistry with computational approaches to design efficient catalytic systems for sustainable energy applications.",
+    "I am a 4th-year BS-MS Chemistry(Major) & Biology(Minor) student at IISER Kolkata with research interests in heterogeneous catalysis, surface chemistry, reaction kinetics, and bio-chmistry. I enjoy combining theoretical concepts with experimental chemistry to design efficient catalytic systems for sustainable energy applications.",
 
   // Files
   image: "/images/profile.jpg",
