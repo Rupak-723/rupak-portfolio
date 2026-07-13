@@ -18,10 +18,23 @@ const profile = {
     "Research Intern at NIMS, Japan",
   ],
 
-  // About
+
   description:
     "I am a 4th-year BS-MS Chemistry(Major) & Biology(Minor) student at IISER Kolkata with research interests in heterogeneous catalysis, surface chemistry, reaction kinetics, and bio-chmistry. I enjoy combining theoretical concepts with experimental chemistry to design efficient catalytic systems for sustainable energy applications.",
 
+  // About
+  about: `
+I am Rupak Sarkar, a fourth-year BS–MS Chemistry student at the Indian Institute of Science Education and Research (IISER) Kolkata. My academic journey has been driven by a curiosity to understand chemistry at the molecular level and apply that knowledge to solve real-world scientific challenges.
+
+During my undergraduate studies, I have gained hands-on research experience in organic synthesis, heterogeneous catalysis, electrochemistry, spectroscopy, and computational materials science. These experiences have strengthened both my experimental skills and scientific thinking while allowing me to work on interdisciplinary research projects.
+
+Currently, I am a Research Intern at the National Institute for Materials Science (NIMS), Japan, where I am involved in research on CO₂ electroreduction and intermetallic catalyst development. This opportunity has allowed me to collaborate in an international research environment and deepen my understanding of advanced catalytic materials.
+
+Beyond research, I enjoy learning new scientific techniques, developing computational skills, mentoring students, and participating in academic activities that promote innovation and collaboration.
+
+My long-term goal is to pursue a PhD in Chemistry and contribute to the development of sustainable catalytic systems and advanced functional materials that can address global energy and environmental challenges.
+`,
+  
   // Files
   image: "/images/profile.jpg",
 
