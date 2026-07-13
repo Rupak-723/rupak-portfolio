@@ -25,7 +25,7 @@ export default function About() {
           <div className="h-1 w-24 rounded bg-cyan-400 mb-10"></div>
 
           <p className="max-w-4xl text-lg leading-9 text-slate-300">
-            {profile.description}
+            {hello}
           </p>
 
         </motion.div>
