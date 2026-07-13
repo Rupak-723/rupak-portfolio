@@ -2,7 +2,7 @@ const profile = {
   // Basic Information
   name: "Rupak Sarkar",
 
-  designation: "BS-MS Chemistry(Major) & Biology(Minor) Student",
+  designation: "Department of Chemical Sciences(DCS)",
 
   university:
     "Indian Institute of Science Education and Research (IISER) Kolkata",
