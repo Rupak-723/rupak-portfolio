@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiOrcid } from "react-icons/si";
 
 import profile from "@/data/profile";
 import AnimatedBackground from "./Background/AnimatedBackground";
