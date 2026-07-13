@@ -84,7 +84,7 @@ export default function Hero() {
               >
                 Download CV
               </a>
-
+              
             </div>
 
             {/* Social Icons */}
@@ -114,6 +114,13 @@ export default function Hero() {
                 className="transition hover:text-cyan-400"
               >
                 <FaEnvelope />
+              </a>
+              <a
+                href="https://orcid.org/0009-0006-3160-0158"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <SiOrcid className="text-2xl hover:text-green-500 transition" />
               </a>
 
             </div>
