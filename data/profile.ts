@@ -39,7 +39,7 @@ const profile = {
 
   scholar: "",
 
-  orcid: "",
+  orcid: "https://orcid.org/0009-0006-3160-0158",
 
   x: "",
 
