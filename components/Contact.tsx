@@ -1,6 +1,6 @@
 import profile from "@/data/profile";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-
+import { SiOrcid } from "react-icons/si";
 export default function Contact() {
   return (
     <section id="contact" className="bg-slate-950 py-24 text-white">
