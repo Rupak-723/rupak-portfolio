@@ -63,7 +63,7 @@ export default function Hero() {
 
             </div>
 
-            <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-300">
               {profile.description}
             </p>
 
