@@ -10,25 +10,31 @@ export default function ChemistryBackground() {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => setInit(true));
+    }).then(() => {
+      setInit(true);
+    });
   }, []);
 
   const options = useMemo(
     () => ({
       fullScreen: {
-        enable: true,
-        zIndex: -1,
+        enable: false,
       },
 
       background: {
-        color: "#0f172a",
+        color: {
+          value: "transparent",
+        },
       },
 
       fpsLimit: 60,
 
       particles: {
         number: {
-          value: 45,
+          value: 60,
+          density: {
+            enable: true,
+          },
         },
 
         color: {
@@ -40,31 +46,38 @@ export default function ChemistryBackground() {
           ],
         },
 
+        shape: {
+          type: "circle",
+        },
+
+        opacity: {
+          value: 0.45,
+        },
+
+        size: {
+          value: {
+            min: 2,
+            max: 5,
+          },
+        },
+
         links: {
           enable: true,
           distance: 140,
-          opacity: 0.18,
           color: "#38bdf8",
+          opacity: 0.18,
+          width: 1,
         },
 
         move: {
           enable: true,
           speed: 0.6,
+          direction: "none",
+          random: false,
+          straight: false,
           outModes: {
             default: "bounce",
           },
-        },
-
-        opacity: {
-          value: 0.5,
-        },
-
-        size: {
-          value: { min: 2, max: 5 },
-        },
-
-        shape: {
-          type: "circle",
         },
       },
 
@@ -75,5 +88,9 @@ export default function ChemistryBackground() {
 
   if (!init) return null;
 
-  return <Particles options={options} />;
+  return (
+    <div className="fixed inset-0 -z-10 pointer-events-none">
+      <Particles options={options} />
+    </div>
+  );
 }
