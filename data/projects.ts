@@ -6,9 +6,10 @@ const projects = [
       "Studied intermetallic compounds as electrocatalysts for selective CO₂ reduction(CO₂RR) towards value-added chemicals(like CO, CH₄, or other hydocarbons) while suppressing the hydrogen evolution reaction(HER).",
     technologies: [
       "Electrochemistry",
+      "Arc-Melting",
       "CO₂-TPD",
       "LSV",
-      "XRD",
+      "XPS",
       "SEM",
     ],
   },
