@@ -12,8 +12,8 @@ const education = [
   {
     year: "2023",
     degree: "Higher Secondary",
-    institute: "Fulbari High School(H.S.)",
-      "West Bengal Council of Higher Secondary Education(WBCHSE)",
+    institute: 'Fulbari High School(H.S.), 
+      West Bengal Council of Higher Secondary Education(WBCHSE)',
     grade: "95.8%",
     description:
       "Mathematics, Physics, Chemistry, Biology, English, and Bengali",
