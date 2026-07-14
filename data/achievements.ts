@@ -5,7 +5,7 @@ const achievements = [
     organization: "National Institute for Materials Science (NIMS), Japan",
     description:
       "Selected for a fully funded international research internship focusing on advanced materials and catalysis in Japan.",
-    icon: "🌏",
+    icon: "JP",
   },
   {
     title: "DST Inspire Fellow",
