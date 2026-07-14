@@ -1,6 +1,6 @@
 const achievements = [
   {
-    title: "NIMS International Research Internship",
+    title: "NIMS International Research Scholar",
     year: "2026",
     organization: "National Institute for Materials Science (NIMS), Japan",
     description:
