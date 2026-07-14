@@ -8,31 +8,25 @@ const education = [
       "Major in Chemistry and minor in Biology with research interests in heterogeneous catalysis, surface chemistry, organic chemistry, and bio-chemistry.",
   },
 
+  
   {
-    year: "2026",
-    degree: "Research Internship",
-    institute: "National Institute for Materials Science (NIMS), Tsukuba, Japan",
-    grade: "Research Intern",
-    description:
-      "Worked on intermetallic compounds and their applications in electrocatalytic reduction reaction of CO₂ under the supervision of Prof. Soshi Iimura.",
-  },
-
-  {
-    year: "2025",
-    degree: "Research Internship",
-    institute: "Indian Institute of Science Education and Research(IISER) Kolkata",
-    grade: "Research Intern",
-    description:
-      "Worked on the bicyclo compounds and their applications on photocatalysis under the supervision of Prof. Biplab Maji.",
-  },
-
-  {
-    year: "2022",
+    year: "2023",
     degree: "Higher Secondary",
-    institute: "West Bengal Council of Higher Secondary Education",
-    grade: "Excellent Academic Performance",
+    institute: "Fulbari High School(H.S.)",
+      "West Bengal Council of Higher Secondary Education(WBCHSE)",
+    grade: "95.8%",
     description:
-      "Completed higher secondary education with a strong foundation in science and mathematics.",
+      "Mathematics, Physics, Chemistry, Biology, English, and Bengali",
+  },
+
+  {
+    year: "2021",
+    degree: "Secondary",
+    institute: "Fulbari High School",
+    "West Bengal Board of Secondary Education",
+    grade: "97.28%",
+    description"
+      "Mathematics, Physical Science, Life Science, Geography, History, English, and Bengali",
   },
 ];
 
