@@ -24,6 +24,7 @@ const research = [
       "Organic Synthesis",
       "Transition Metal Chemistry",
       "Quantum Chemistry",
+      "Spectroscopy",
     ],
   },
 ];
