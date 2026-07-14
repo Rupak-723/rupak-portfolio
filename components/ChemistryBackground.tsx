@@ -13,12 +13,12 @@ const particles = Array.from({ length: 40 }, (_, i) => ({
 
 export default function ChemistryBackground() {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden bg-slate-950 pointer-events-none">
+    <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
       {/* Floating particles */}
       {particles.map((p) => (
         <motion.div
           key={p.id}
-          className="absolute rounded-full bg-cyan-400/30"
+          className="absolute rounded-full bg-cyan-400/70 shadow-[0_0_25px_#22d3ee]"
           style={{
             width: p.size,
             height: p.size,
