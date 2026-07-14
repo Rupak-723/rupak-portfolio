@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const images = [
-  "/images/profile.jpg",
-  "/images/profile.jpg",
-  "/images/profile.jpg",
+  "/images/IISER Kolkata 1.jpeg",
+  "/images/IISER Kolkata 2.jpeg",
+  "/images/Iiser Kolkata.jpg",
   "/images/profile.jpg",
 ];
 
