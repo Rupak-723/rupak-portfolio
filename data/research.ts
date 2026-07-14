@@ -4,10 +4,10 @@ const research = [
     organization: "National Institute for Materials Science (NIMS), Japan",
     period: "2026",
     description:
-      "Working on intermetallic compounds and electrocatalysts for CO₂ electroreduction. Characterization techniques include CO₂-TPD, electrochemical measurements, and structural analysis.",
+      "Worked on the intermetallic compounds and their applications on electrocatalysts for CO₂ electroreduction.",
     skills: [
       "CO₂ Electroreduction",
-      "Intermetallic Compounds",
+      " Synthesis of Intermetallic Compounds",
       "CO₂-TPD",
       "Electrochemistry",
       "Catalysis",
@@ -16,15 +16,14 @@ const research = [
   {
     title: "BS-MS Research",
     organization: "IISER Kolkata",
-    period: "2025 - Present",
+    period: "2023 - Present",
     description:
-      "Research on heterogeneous catalysis, reaction mechanisms, and computational chemistry. Experience with synthesis, spectroscopy, and data analysis.",
+      "Research on heterogeneous catalysis, reaction mechanisms, and organic chemistry. Experience with synthesis, spectroscopy, and data analysis.",
     skills: [
       "Catalysis",
       "Organic Synthesis",
-      "NMR",
-      "IR",
-      "Computational Chemistry",
+      "Transition Metal Chemistry",
+      "Quantum Chemistry",
     ],
   },
 ];
