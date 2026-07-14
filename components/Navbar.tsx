@@ -20,9 +20,9 @@ export default function Navbar() {
 
           <a href="#research" className="hover:text-cyan-400">Research</a>
 
-          <a href="#gallery" className="hover:text-cyan-400">Gallery</a>
-
           <a href="#projects" className="hover:text-cyan-400">Projects</a>
+
+          <a href="#gallery" className="hover:text-cyan-400">Gallery</a>
 
           <a href="#contact" className="hover:text-cyan-400">Contact</a>
 
