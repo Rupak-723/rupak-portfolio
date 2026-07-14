@@ -5,7 +5,7 @@ const education = [
     institute: "Indian Institute of Science Education and Research (IISER) Kolkata",
     grade: "CGPA: 9.07",
     description:
-      "Major in Chemistry with research interests in heterogeneous catalysis, CO₂ electroreduction, computational chemistry, and materials science.",
+      "Major in Chemistry and minor in Biology with research interests in heterogeneous catalysis, surface chemistry, organic chemistry, and bio-chemistry.",
   },
 
   {
