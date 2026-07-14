@@ -22,6 +22,13 @@ const images = [
     src: "/images/Friend Circle.jpeg",
     caption: "Friend Circle.",
   },
+
+  {
+    src: "/images/Friends.jpeg",
+    caption: "People. Memories. Forever.",
+  },
+
+  
 ];
 
 export default function Gallery() {
