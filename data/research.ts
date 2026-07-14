@@ -4,7 +4,7 @@ const research = [
     organization: "National Institute for Materials Science (NIMS), Japan",
     period: "2026",
     description:
-      "Worked on the intermetallic compounds and their applications on electrocatalysts for CO₂ electroreduction.",
+      "Worked on the intermetallic compounds and their applications on electrocatalysts for CO₂ electroreduction under the supervision of Prof. Shoshi Iimura",
     skills: [
       "CO₂ Electroreduction",
       " Synthesis of Intermetallic Compounds",
