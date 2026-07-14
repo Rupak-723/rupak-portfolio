@@ -8,10 +8,12 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
+import ChemistryBackground from "@/components/ChemistryBackground";
 
 export default function Home() {
   return (
     <main className="bg-slate-950">
+      <ChemistryBackground />
       <Navbar />
       <Hero />
       <About />
