@@ -28,7 +28,7 @@ I am Rupak Sarkar, a fourth-year BS–MS Chemistry major[with minor in Biology] 
 
 During my undergraduate studies, I have gained hands-on research experience in organic synthesis, heterogeneous catalysis, electrochemistry, spectroscopy, material chemistry, medicinal chemistry and quantum chemistry. These experiences have strengthened both my experimental skills and scientific thinking while allowing me to work on interdisciplinary research projects.
 
-Currently, I am a Research Intern at the National Institute for Materials Science (NIMS), Japan, where I am involved in research on CO₂ electroreduction and intermetallic catalyst development. This opportunity has allowed me to collaborate in an international research environment and deepen my understanding of advanced catalytic materials.
+Currently, I have done a research project at the National Institute for Materials Science (NIMS), Japan, where I am involved in research on CO₂ electroreduction and intermetallic catalyst development. This opportunity has allowed me to collaborate in an international research environment and deepen my understanding of advanced catalytic materials.
 
 Beyond research, I enjoy learning new scientific techniques, developing computational skills, mentoring students, and participating in academic activities that promote innovation and collaboration.
 
