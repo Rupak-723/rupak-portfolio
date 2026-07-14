@@ -1,47 +1,55 @@
 import Image from "next/image";
 
 const images = [
-  "/images/IISER Kolkata 1.jpeg",
-  "/images/IISER Kolkata 2.jpeg",
-  "/images/Iiser Kolkata.jpg",
-  "/images/profile.jpg",
+  {
+    src: "/images/IISER Kolkata 1.jpeg",
+    caption: "Exploring the beautiful IISER Kolkata campus.",
+  },
+  {
+    src: "/images/IISER Kolkata 2.jpeg",
+    caption: "Academic block at IISER Kolkata.",
+  },
+  {
+    src: "/images/Iiser Kolkata.jpg",
+    caption: "A memorable moment at IISER Kolkata.",
+  },
+  {
+    src: "/images/profile.jpg",
+    caption: "Research and academic journey.",
+  },
 ];
 
 export default function Gallery() {
   return (
     <section id="gallery" className="bg-slate-900 py-24 text-white">
-
       <div className="mx-auto max-w-7xl px-8">
-
         <h2 className="mb-16 text-center text-5xl font-bold">
           Gallery
         </h2>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-
           {images.map((image, index) => (
-
             <div
               key={index}
-              className="overflow-hidden rounded-2xl"
+              className="overflow-hidden rounded-2xl bg-slate-800 shadow-lg"
             >
-
               <Image
-                src={image}
-                alt="Gallery"
+                src={image.src}
+                alt={image.caption}
                 width={400}
                 height={400}
-                className="h-72 w-full object-cover transition hover:scale-110"
+                className="h-72 w-full object-cover transition duration-300 hover:scale-110"
               />
 
+              <div className="p-4">
+                <p className="text-center text-sm text-slate-300">
+                  {image.caption}
+                </p>
+              </div>
             </div>
-
           ))}
-
         </div>
-
       </div>
-
     </section>
   );
 }
