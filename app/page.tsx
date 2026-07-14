@@ -12,10 +12,14 @@ import ChemistryBackground from "@/components/ChemistryBackground";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-slate-950">
+    <main className="relative min-h-screen bg-slate-950">
+
+      {/* Background */}
       <ChemistryBackground />
 
+      {/* Content */}
       <div className="relative z-10">
+
         <Navbar />
         <Hero />
         <About />
@@ -26,7 +30,9 @@ export default function Home() {
         <Skills />
         <Gallery />
         <Contact />
+
       </div>
+
     </main>
   );
 }
