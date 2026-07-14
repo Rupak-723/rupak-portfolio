@@ -1,119 +1,96 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+import { motion } from "framer-motion";
+
+const particles = Array.from({ length: 40 }, (_, i) => ({
+  id: i,
+  size: Math.random() * 8 + 4,
+  x: Math.random() * 100,
+  y: Math.random() * 100,
+  duration: Math.random() * 12 + 10,
+  delay: Math.random() * 5,
+}));
 
 export default function ChemistryBackground() {
-  const [init, setInit] = useState(false);
-
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
-
-  if (!init) return null;
-
   return (
-    <div className="fixed inset-0 -z-10 pointer-events-none">
-      <Particles
-        id="tsparticles"
-        options={{
-          background: {
-            color: {
-              value: "transparent",
-            },
-          },
+    <div className="fixed inset-0 -z-10 overflow-hidden bg-slate-950 pointer-events-none">
+      {/* Floating particles */}
+      {particles.map((p) => (
+        <motion.div
+          key={p.id}
+          className="absolute rounded-full bg-cyan-400/30"
+          style={{
+            width: p.size,
+            height: p.size,
+            left: `${p.x}%`,
+            top: `${p.y}%`,
+          }}
+          animate={{
+            y: [0, -30, 20, 0],
+            x: [0, 20, -15, 0],
+            opacity: [0.2, 0.7, 0.2],
+            scale: [1, 1.5, 1],
+          }}
+          transition={{
+            repeat: Infinity,
+            duration: p.duration,
+            delay: p.delay,
+            ease: "easeInOut",
+          }}
+        />
+      ))}
 
-          fullScreen: {
-            enable: false,
-          },
+      {/* Floating chemistry text */}
+      {[
+        "CO₂",
+        "CH₄",
+        "H₂O",
+        "NH₃",
+        "CeCuGe",
+        "CaSi₂",
+        "HCOOH",
+        "Catalysis",
+      ].map((text, index) => (
+        <motion.div
+          key={index}
+          className="absolute text-cyan-300/10 font-bold select-none"
+          style={{
+            left: `${10 + index * 10}%`,
+            top: `${15 + (index % 4) * 20}%`,
+            fontSize: `${18 + (index % 3) * 6}px`,
+          }}
+          animate={{
+            y: [-20, 20, -20],
+            opacity: [0.05, 0.15, 0.05],
+          }}
+          transition={{
+            repeat: Infinity,
+            duration: 12 + index,
+            ease: "easeInOut",
+          }}
+        >
+          {text}
+        </motion.div>
+      ))}
 
-          fpsLimit: 60,
-
-          detectRetina: true,
-
-          particles: {
-            number: {
-              value: 60,
-              density: {
-                enable: true,
-                width: 1920,
-                height: 1080,
-              },
-            },
-
-            color: {
-              value: [
-                "#38bdf8",
-                "#60a5fa",
-                "#22c55e",
-                "#ffffff",
-              ],
-            },
-
-            links: {
-              enable: true,
-              distance: 140,
-              color: "#38bdf8",
-              opacity: 0.18,
-              width: 1,
-            },
-
-            move: {
-              enable: true,
-              speed: 0.7,
-              direction: "none",
-              random: false,
-              straight: false,
-              outModes: {
-                default: "bounce",
-              },
-            },
-
-            opacity: {
-              value: 0.45,
-            },
-
-            size: {
-              value: {
-                min: 2,
-                max: 5,
-              },
-            },
-
-            shape: {
-              type: "circle",
-            },
-          },
-
-          interactivity: {
-            events: {
-              onHover: {
-                enable: true,
-                mode: "grab",
-              },
-
-              resize: {
-                enable: true,
-              },
-            },
-
-            modes: {
-              grab: {
-                distance: 160,
-
-                links: {
-                  opacity: 0.5,
-                },
-              },
-            },
-          },
-        }}
-      />
+      {/* Horizontal glowing lines */}
+      {[20, 40, 60, 80].map((y, i) => (
+        <motion.div
+          key={i}
+          className="absolute left-0 h-px bg-cyan-400/10"
+          style={{
+            top: `${y}%`,
+            width: "100%",
+          }}
+          animate={{
+            opacity: [0.05, 0.2, 0.05],
+          }}
+          transition={{
+            repeat: Infinity,
+            duration: 5 + i,
+          }}
+        />
+      ))}
     </div>
   );
 }
