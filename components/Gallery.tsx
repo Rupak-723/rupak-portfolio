@@ -14,8 +14,8 @@ const images = [
     caption: "Beauty isn't always found in clear skies.",
   },
   {
-    src: "/images/profile.jpg",
-    caption: "Research and academic journey.",
+    src: "/images/Freshers.jpeg",
+    caption: "Freshers'23.",
   },
 ];
 
