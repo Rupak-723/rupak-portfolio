@@ -69,7 +69,7 @@ My long-term goal is to pursue a PhD in Chemistry and contribute to the developm
       label: "Latest SGPA",
     },
     {
-      number: "3+",
+      number: "4+",
       label: "Research Projects",
     },
     {
