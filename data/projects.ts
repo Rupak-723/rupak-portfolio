@@ -1,6 +1,7 @@
 const projects = [
   {
     title: "CO₂ Electroreduction using Intermetallic Compounds",
+    organisation: "NIMS, Tsukuba, Japan",
     period: "2026",
     description:
       "Studied intermetallic compounds as electrocatalysts for selective CO₂ reduction(CO₂RR) towards value-added chemicals(like CO, CH₄, or other hydocarbons) while suppressing the hydrogen evolution reaction(HER).",
