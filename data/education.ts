@@ -18,6 +18,15 @@ const education = [
   },
 
   {
+    year: "2025",
+    degree: "Research Internship",
+    institute: "Indian Institute of Science Education and Research(IISER) Kolkata",
+    grade: "Research Intern",
+    description:
+      "Worked on the bicyclo compounds and their applications on photocatalysis under the supervision of Prof. Biplab Maji.",
+  },
+
+  {
     year: "2022",
     degree: "Higher Secondary",
     institute: "West Bengal Council of Higher Secondary Education",
