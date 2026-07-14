@@ -39,7 +39,9 @@ export default function Education() {
               <p className="text-lg text-slate-300">
                 {item.institute}
               </p>
-
+              {item.board && (
+                <p className="text-gray-500 text-sm">{item.board}</p>
+              )}
               <p className="mt-2 text-cyan-300">
                 {item.grade}
               </p>
