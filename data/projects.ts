@@ -3,7 +3,7 @@ const projects = [
     title: "CO₂ Electroreduction using Intermetallic Compounds",
     period: "2026",
     description:
-      "Studying CeCuGe and CaSi₂ as electrocatalysts for selective CO₂ reduction towards value-added chemicals while suppressing the hydrogen evolution reaction.",
+      "Studying intermetallic compounds as electrocatalysts for selective CO₂ reduction(CO₂RR) towards value-added chemicals(like CO, CH₄, or other hydocarbons) while suppressing the hydrogen evolution reaction(HER).",
     technologies: [
       "Electrochemistry",
       "CO₂-TPD",
