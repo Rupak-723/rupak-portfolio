@@ -14,7 +14,7 @@ const education = [
     institute: "National Institute for Materials Science (NIMS), Tsukuba, Japan",
     grade: "Research Intern",
     description:
-      "Worked on intermetallic compounds and their applications in electrocatalytic reduction reaction of CO2 under the supervision of Prof. Soshi Iimura.",
+      "Worked on intermetallic compounds and their applications in electrocatalytic reduction reaction of CO₂ under the supervision of Prof. Soshi Iimura.",
   },
 
   {
