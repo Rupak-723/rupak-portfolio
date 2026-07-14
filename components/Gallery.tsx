@@ -17,6 +17,11 @@ const images = [
     src: "/images/Freshers.jpeg",
     caption: "Freshers'23.",
   },
+
+  {
+    src: "/images/Friend Circle.jpeg",
+    caption: "Friend Circle.",
+  },
 ];
 
 export default function Gallery() {
