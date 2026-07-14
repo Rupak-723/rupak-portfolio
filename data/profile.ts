@@ -24,7 +24,7 @@ const profile = {
 
   // About
   about: `
-I am Rupak Sarkar, a fourth-year BS–MS Chemistry student at the Indian Institute of Science Education and Research (IISER) Kolkata. My academic journey has been driven by a curiosity to understand chemistry at the molecular level and apply that knowledge to solve real-world scientific challenges.
+I am Rupak Sarkar, a fourth-year BS–MS Chemistry major[with minor in Biology] student at the Indian Institute of Science Education and Research (IISER) Kolkata. My interest is always driven by learning new things through the theoretical and experimental concept of chemistry.
 
 During my undergraduate studies, I have gained hands-on research experience in organic synthesis, heterogeneous catalysis, electrochemistry, spectroscopy, and computational materials science. These experiences have strengthened both my experimental skills and scientific thinking while allowing me to work on interdisciplinary research projects.
 
