@@ -4,7 +4,7 @@ const education = [
     degree: "BS–MS in Chemistry",
     institute:
       "Indian Institute of Science Education and Research (IISER) Kolkata",
-    grade: "CGPA: 9.07/10.00",
+    grade: "CGPA: 9.07",
     description:
       "Pursuing an integrated BS–MS with a major in Chemistry and a minor in Biology. Interested in research focusing on heterogeneous catalysis, surface chemistry, organic synthesis, and biomolecular chemistry.",
   },
