@@ -19,28 +19,47 @@ const projects = [
     title: "Organic Synthesis of Strained-Ring Compounds",
     period: "2025",
     description:
-      "Synthesis and characterization of bicyclobutane derivatives through multi-step organic synthesis under the supervision of Dr. Biplab Maji.",
+      "Synthesis and characterization of bicyclobutane(BCB) derivatives through multi-step organic synthesis and their application in photocatalysis under the supervision of Dr. Biplab Maji.",
     technologies: [
       "Organic Synthesis",
       "NMR",
       "IR",
+      "UV-Vis Spectroscopy",
       "TLC",
       "Column Chromatography",
     ],
   },
 
   {
-    title: "Computational Chemistry",
+    title: "Reaction dynamics in optical cavities",
     period: "2025",
     description:
-      "Learning Density Functional Theory (DFT) calculations using Quantum ESPRESSO for catalytic materials.",
+      "Studied the quantum dynamics of Shin-Meitu model to understand the nonadiabatic phenomena in molecules.",
     technologies: [
-      "Quantum ESPRESSO",
-      "Linux",
-      "Python",
-      "DFT",
+      "Shin–Metiu Model",
+      "SciPy",
+      "Cavity Quantum Electrodynamics (Cavity QED)",
+      "Nonadiabatic Dynamics",
     ],
   },
+
+  {
+    title: "Identifying operational states of a wastewater treatment plant through unsupervised clustering",
+    period: "2025",
+    description:
+      "Identified operational states of a wastewater treatment plant using clustering on sensor data(pH, turbidity, flow, etc.) to detect anomalies and optimize performance.",
+    technologies: [
+      "K-Means Clustering",
+      "Hierarchical Clustering",
+      "Silhouette Score",
+      "Davies–Bouldin Index",
+      "Scikit-learn",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      ],
+  },
+      
 ];
 
 export default projects;
