@@ -11,21 +11,34 @@ const images = [
   },
 
   {
-    src: "/images/Freshers.jpeg",
-    caption: "Freshers'23.",
+    src: "/images/Asakusa city.jpeg",
+    caption: "A city where history and modern life walk the same streets, Asakusa City.",
   },
 
   {
-    src: "/images/Friend Circle.jpeg",
-    caption: "Friend Circle.",
+    src: "/images/kaminarimon gate.jpeg",
+    caption: "Kaminarimon Gate",
   },
 
   {
-    src: "/images/Friends.jpeg",
-    caption: "People. Memories. Forever.",
+    src: "/images/Sanso-ji temple.jpeg",
+    caption: "Where centuries of tradition meet quiet moments of reflection, Sensō-ji Five-Storied Pagoda.",
   },
 
-  
+  {
+    src: "/images/shopping street.jpeg",
+    caption: "Every souvenir here carries a memory, Nakamise Shopping Street.",
+  },
+
+  {
+    src: "/images/tokyo sky tree.jpeg",
+    caption: "Tokyo SkyTree",
+  },
+
+  {
+    src: "/images/tokyo tower.jpeg",
+    caption: "Tokyo Tower",
+  },
 ];
 
 export default function Gallery() {
