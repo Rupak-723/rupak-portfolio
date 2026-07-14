@@ -3,15 +3,15 @@ import Image from "next/image";
 const images = [
   {
     src: "/images/IISER Kolkata 1.jpeg",
-    caption: "Exploring the beautiful IISER Kolkata campus.",
+    caption: "The beginning of my scientific journey.",
   },
   {
     src: "/images/IISER Kolkata 2.jpeg",
-    caption: "Academic block at IISER Kolkata.",
+    caption: "Some evenings inspire more than lectures.",
   },
   {
     src: "/images/Iiser Kolkata.jpg",
-    caption: "A memorable moment at IISER Kolkata.",
+    caption: "Beauty isn't always found in clear skies.",
   },
   {
     src: "/images/profile.jpg",
