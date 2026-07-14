@@ -9,6 +9,7 @@ import Skills from "@/components/Skills";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import ChemistryBackground from "@/components/ChemistryBackground";
+import Achievements from "@/components/Achievements";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <About />
         <Stats />
         <Education />
+        <Achievements />
         <Research />
         <Projects />
         <Skills />
