@@ -23,7 +23,7 @@ const education = [
     year: "2021",
     degree: "Secondary",
     institute: "Fulbari High School",
-    "West Bengal Board of Secondary Education",
+    board: "West Bengal Board of Secondary Education",
     grade: "97.28%",
     description"
       "Mathematics, Physical Science, Life Science, Geography, History, English, and Bengali",
