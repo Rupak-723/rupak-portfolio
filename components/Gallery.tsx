@@ -9,10 +9,7 @@ const images = [
     src: "/images/IISER Kolkata 2.jpeg",
     caption: "Some evenings inspire more than lectures.",
   },
-  {
-    src: "/images/Iiser Kolkata.jpg",
-    caption: "Beauty isn't always found in clear skies.",
-  },
+
   {
     src: "/images/Freshers.jpeg",
     caption: "Freshers'23.",
