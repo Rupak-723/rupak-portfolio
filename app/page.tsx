@@ -12,18 +12,25 @@ import ChemistryBackground from "@/components/ChemistryBackground";
 
 export default function Home() {
   return (
-    <main className="bg-slate-950">
+    <main className="relative min-h-screen bg-slate-950 overflow-hidden">
+
+      {/* Animated Background */}
       <ChemistryBackground />
-      <Navbar />
-      <Hero />
-      <About />
-      <Stats />
-      <Education />
-      <Research />
-      <Projects />
-      <Skills />
-      <Gallery />
-      <Contact />
+
+      {/* Website Content */}
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <About />
+        <Stats />
+        <Education />
+        <Research />
+        <Projects />
+        <Skills />
+        <Gallery />
+        <Contact />
+      </div>
+
     </main>
   );
 }
