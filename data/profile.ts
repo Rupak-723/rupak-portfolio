@@ -73,7 +73,7 @@ My long-term goal is to pursue a PhD in Chemistry and contribute to the developm
       label: "Research Projects",
     },
     {
-      number: "15+",
+      number: "20+",
       label: "Technical Skills",
     },
   ],
